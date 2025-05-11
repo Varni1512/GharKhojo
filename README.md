@@ -27,12 +27,6 @@ The landing page includes:
 
 ---
 
-## 🧠 How It Works
-
-![SmartResume Workflow](image/flow.png)
-
----
-
 ## 🛠️ Tech Stack
 
 ### 👨‍💻 Backend
@@ -44,67 +38,11 @@ The landing page includes:
 - Regex  
 
 ### 💅 Frontend
-- HTML5  
-- CSS3  
+- React 
 
 ### 📬 Email Integration
 - SMTP  
 - Gmail App Passwords  
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/yourusername/smartresume.git
-cd smartresume
-```
-
-```bash
-pip install -r requirements.txt
-```
-
-```bash
-python job.py
-```
-
-Make sure to update the following in the code:
-
-```python
-EMAIL_ADDRESS = "your-email@gmail.com"
-EMAIL_PASSWORD = "your-app-password"
-```
-
----
-
-## 📁 Folder Structure
-
-```
-smartresume/
-├── job.py
-├── index.html 
-├── styles.css
-├── uploads/
-├── requirements.txt
-├── candidates.db
-└── README.md
-```
-
----
-
-## 🔒 Security Notice
-
-- Use [Gmail App Passwords](https://support.google.com/accounts/answer/185833) instead of real passwords.  
-- Don’t push sensitive credentials to GitHub. Use `.env` or environment variables in production.
-
----
-
-## ✨ Future Improvements
-
-- Upload resume via drag and drop  
-- Admin login and access control  
-- Export candidate data to Excel/CSV  
-- Chatbot assistant for applicants  
 
 ---
 
